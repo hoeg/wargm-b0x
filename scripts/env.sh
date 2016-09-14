@@ -12,7 +12,7 @@ sudo apt-get install -y build-essential \
 			python2.7 \
 			python2.7-dev \
 			python-pip \
-			ipython \
+			ipython22 \
 			libffi-dev \
 			libssl-dev \
 			gdb \
