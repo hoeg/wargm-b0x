@@ -10,4 +10,4 @@ Currently the box contains the following tools:
 
 Additionally vim and ipython is added. 
 
-Vim is a vanilla installation but I will add my own config and make it easy exhange it with your own.
+Vim is a vanilla installation but I will add my own config and make it easy exhange it with your own. I did however add python-jedi, just because...
