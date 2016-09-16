@@ -15,5 +15,6 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.provision "shell", path: "scripts/env.sh"
+  config.vm.provision "shell", path: "scripts/personalize.sh", privileged: false
   config.vm.provision "shell", path: "scripts/tools.sh", privileged: false
 end
