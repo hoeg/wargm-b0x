@@ -12,9 +12,14 @@ sudo apt-get install -y build-essential \
 			python2.7 \
 			python2.7-dev \
 			python-pip \
-			ipython22 \
+			ipython \
 			libffi-dev \
 			libssl-dev \
 			gdb \
 			gdb-multiarch \
-			vim
+			vim \
+			vim-python-jedi
+
+vim-addons install python-jedi
+
+sudo apt-get autoremove
