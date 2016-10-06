@@ -10,7 +10,7 @@ Currently the box contains the following tools:
 
 Additionally vim and ipython is added. 
 
-Vim is a vanilla installation but I will add my own config and make it easy exhange it with your own. I did however add python-jedi, just because...
+A personalization step is included such that you can change the ``scripts/personalize.sh`` to setup your config files.
 
 ### Notes
 tmux is also available. [Cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
