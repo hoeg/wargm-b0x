@@ -17,6 +17,8 @@ sudo apt-get install -y build-essential \
 			libssl-dev \
 			gdb \
 			gdb-multiarch \
+                        gcc-multilib \
+                        lib32stdc++6 \
 			vim \
 			vim-python-jedi
 
