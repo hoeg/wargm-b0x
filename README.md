@@ -12,5 +12,10 @@ Additionally vim and ipython is added.
 
 A personalization step is included such that you can change the ``scripts/personalize.sh`` to setup your config files.
 
+### TODO
+Add:
+ - binwalk
+ - angr
+
 ### Notes
 tmux is also available. [Cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
