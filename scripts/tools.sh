@@ -19,3 +19,7 @@ popd
 sudo pip install filebytes
 sudo pip install ropper
 
+git clone https://github.com/unicorn-engine/unicorn.git
+pushd ~/unicorn/bindings/python/
+sudo make install
+popd
