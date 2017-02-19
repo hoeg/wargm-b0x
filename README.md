@@ -12,6 +12,8 @@ Additionally vim and ipython is added.
 
 A personalization step is included such that you can change the ``scripts/personalize.sh`` to setup your config files.
 
+For CTF challenges use ``ctf doit.py`` to create a python file (named "doit") with pwntools skeleton code for exploit development.
+
 ### TODO
 Add:
  - binwalk
