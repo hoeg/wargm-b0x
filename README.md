@@ -18,6 +18,10 @@ For CTF challenges use ``ctf doit.py`` to create a python file (named "doit") wi
 Add:
  - binwalk
  - angr
+ - hashpump w. python binding
+Update template.py to include loading of elf and debug target for running locally
+Add shortcut to vim for ``:!python - arg``
+ 
 
 ### Notes
 tmux is also available. [Cheatsheet](https://gist.github.com/MohamedAlaa/2961058)
