@@ -2,9 +2,10 @@
 
 if [ "$#" -ne 2 ]; then
     echo "Usage $0 <binary> <port>"
+    exit
 fi
 
-local port = $2
-local binary = $1
+port=$2
+binary=$1
 
-socat -lm -d -d TCP-LISTEN:$port,fork EXEC:$binary,chroot=/home/vagrant,su=vagrant,pty,stderr
+socat -lm -d TCP-LISTEN:$port,fork EXEC:$binary
