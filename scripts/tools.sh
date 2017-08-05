@@ -19,11 +19,11 @@ popd
 sudo pip install filebytes
 sudo pip install ropper
 
-git clone https://github.com/unicorn-engine/unicorn.git
-pushd ~/unicorn/bindings/python/
-sudo make install
-popd
+#git clone https://github.com/unicorn-engine/unicorn.git
+#pushd ~/unicorn/bindings/python/
+#sudo make install
+#popd
 
 #Setup ctf template
-cp template.py ~/.template.py
-echo "alias ctf='cp ~/.template.py'" >> ~/.zshrc
+#cp template.py ~/.template.py
+#echo "alias ctf='cp ~/.template.py'" >> ~/.zshrc

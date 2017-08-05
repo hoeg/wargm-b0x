@@ -5,8 +5,9 @@ Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
 
   config.vm.hostname = "wankfist"
-
   config.vm.post_up_message = "Basic box for solving wargames"
+
+  config.ssh.forward_x11 = true
 
   config.vm.provider "virtualbox" do |vb|
 #        vb.gui = true

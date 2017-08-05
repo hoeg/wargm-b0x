@@ -2,8 +2,7 @@
 
 from pwn import *
 
-hostname = ""
-port = 
+hostname, port = "", 
 
 def win():
 	r = remote(hostname, port)
